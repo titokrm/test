@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Pop-up</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel ="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+
+<body class="scroll-lock">
+  <div class="wrapper-global">
+    <div class="wrapper-modal">
+      <div class="modal">
+        <div class="modal__picture-place">
+          <div class="modal__text-bg">
+            ПОШ<br>АГО-<br>ВЫЙ<br>ПЛАН
+          </div>
+          <picture>
+            <source type="image/webp" srcset="images/book-with-shadow.webp 1x, images/book-with-shadow@2x.webp 2x">
+            <img class="modal__img" src="images/book-with-shadow.png" alt="Book" srcset="images/book-with-shadow.png 1x, images/book-with-shadow@2x.png 2x">
+          </picture>
+          <svg class="icon icon--arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <use xlink:href="images/sprite.svg#arrow"></use>
+          </svg>
+        </div>
+        <div class="modal__text-place">
+          <h4 class="modal__title">мастер-класс?</h4>
+          <p class="modal__description">Скачайте пошаговый план</p>
+          <h5 class="modal__subtitle">«Как собственнику <br>выйти из операционки»</h5>
+          <p class="modal__description">и познакомьтесь с этим инструментом <br> <b>прямо сейчас</b></p>
+          <p class="modal__note simple-text">10 шагов помогут создать системный бизнес</p>
+          <form action="#" class="modal__form get-bonus">
+            <div class="get-bonus__field">
+              <label class="get-bonus__label simple-text" for="email">Для получения бонуса введите email</label>
+              <input class="get-bonus__input" type="email" name="email" id="email" placeholder="Ваш e-mail">
+            </div>
+            <button class="get-bonus__btn btn btn--color--default btn--size--normal" type="submit">Скачать пошаговой план</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

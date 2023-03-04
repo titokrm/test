@@ -1,0 +1,29 @@
+$default-font: 'Gotham Pro', sans-serif;
+
+/*----Color const-----*/
+$back-default-color: #fff;
+$text-default-color: #0D0D0D;
+
+$link-default-color: $text-default-color;
+$link-hover-default-color: $text-default-color;
+$link-decoration: underline;
+$link-hover-decoration: none;
+
+$default-btn-color: linear-gradient(92.64deg, #FF5621 29.24%, #F21313 83.67%);
+/*----Size const------*/
+$rem-size: 16;
+
+$width-container: 1440;
+$padding-container: 20;
+$padding-container-tab: 20;
+$padding-container-mob: 15;
+$padding-container-xs: 15;
+
+/*----media const------*/
+$desk-sm-width: 1200;
+$tab-width: 992;
+$mob-width: 768;
+$xs-mob-width: 575;
+$min-width: 360;
+
+$animate-time: .2s;

@@ -1,0 +1,33 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all $animate-time ease-in-out;
+  white-space: nowrap;
+  &--size {
+    &--normal {
+      height: rem(50);
+      border-radius: rem(4);
+      @include fontrem(15.2, 17.6, 900, 0.01);
+      padding: 0 rem(20);
+      text-transform: uppercase;
+    }
+  }
+
+  &--color {
+    &--default {
+      background: $default-btn-color;
+      background-color: #F21313;
+      color: #fff;
+      &:hover {
+        box-shadow: 0 0 .7em rgba(242,19,19,.5);
+      }
+    }
+  }
+
+}
